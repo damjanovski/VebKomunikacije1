@@ -95,7 +95,13 @@ header, main, footer {
 }
 
 .p_footer {
-    padding: 5px;
+    padding: 10px;
+}
+
+.fb_div {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 @media screen and (max-width: 1280px) {

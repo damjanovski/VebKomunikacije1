@@ -1,0 +1,144 @@
+* {margin: 0; padding: 0;}
+
+body {
+    background-color: #dc4d3f;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: auto;
+    background-color: white; /* Kasnije promeni, helper atm */
+}
+
+.header_slika{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.glavni_div {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.naslovni_div {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.veliki_naslov {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.srednji_naslov {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.mali_naslov {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.p_naslov {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.p_vesti {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pomeranje {
+    margin: 5px;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+.p_model {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.p_footer {
+    padding: 5px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .pomeranje {
+        display: block;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    a {
+        display: block;
+        width: 100%;
+        border-bottom: solid 1px #f2f2f2;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    a {
+        display: block;
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+        
+    }
+
+	aside {
+        display: none;
+    }
+
+    .pomeranje {
+        display: block;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+
+/* Proveriti zasto divovi ne zauzimaju ceo ekran i zasto se linkovi u nav-u ne redjaju jedan ispod drugog kada se smanjuje prozor. */
